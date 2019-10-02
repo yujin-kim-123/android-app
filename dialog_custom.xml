@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 1.웹 페이지는 두 개 존재.
+     2. 화면의 반 이상을 슬라이딩하면 넘어다님.
+     3. 설정창에서 시작주소변경가능... 또...뭐가 있나..-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/custom1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="웹 페이지는 2개 존재합니다."
+            android:textColor="@color/Black"
+            android:layout_gravity="center"
+            android:textSize="17dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/custom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:text="가로로 화면의 반 이상을 슬라이딩하면 다음 또는 전 웹으로 넘어갑니다."
+            android:layout_gravity="center"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/custom3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="하단의 톱니바퀴 버튼을 누르면 어플 시작시 나오는 웹 사이트를 바꿀 수 있습니다."
+            android:textColor="@color/Black"
+            android:layout_gravity="center"
+            android:textSize="17dp"/>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
